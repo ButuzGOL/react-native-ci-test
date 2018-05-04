@@ -6,11 +6,7 @@ changes() {
 
 changed=$(changes | grep -c "htmobile-ui")
 
-echo "!!!!!"
-echo changes
-echo changed
-
-echo "Hello"
-# if [ $changed -eq 0 ]; then
-  exit 0
-# fi
+if [ $changed -eq 0 ]; then
+  echo "No folder"
+  exit 1
+fi
