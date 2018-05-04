@@ -11,5 +11,5 @@ echo changes
 echo changed
 
 # if [ $changed -eq 0 ]; then
-  exit 1;
+  exit;
 # fi
