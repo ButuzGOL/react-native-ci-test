@@ -10,6 +10,7 @@ echo "!!!!!"
 echo changes
 echo changed
 
+echo "Hello"
 # if [ $changed -eq 0 ]; then
   exit 0;
 # fi
